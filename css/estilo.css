@@ -20,14 +20,89 @@ p {
     text-indent: 1rem;
 }
 
-p.maiusculo{
+p.maiusculo {
     text-transform: uppercase;
     text-align: center;
     initial-letter: 1rem;
     line-height: 2rem;
     word-spacing: 2rem;
-    color:white;
+    color: white;
     font: italic small-caps bold 2rem monospace;
     text-shadow: 0.2rem 0.2rem 0.3rem black, 0 0 1rem red, 0 0 2rem red;
 }
 
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: darkgoldenrod;
+}
+
+footer {
+    clear: both;
+    background: #d9d9d9 url("../img/dalia.jpg") no-repeat left bottom;
+    height: 531px;
+}
+
+div {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: inline;
+    z-index: 2rem;
+    background-color: lightgreen;
+    color: white;
+    border: 0.2 solid darkgreen;
+    padding: 0.2rem;
+    font-size: 2rem;
+}
+
+h1#page1 {
+    color: red;
+    border: 2rem dashed yellow;
+}
+
+img {
+    width: 20rem;
+}
+
+ul {
+    list-style-type: square;
+}
+
+h1.page2 {
+    color: blueviolet;
+    border: 1rem groove purple;
+    border-radius: 0.7rem;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+section img {
+    float: left;
+}
+
+main.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
+
+main.flexbox {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main.flexbox article {
+    background-color: lightcoral;
+    margin: 1rem;
+    padding: 2rem;
+}
